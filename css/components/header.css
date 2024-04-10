@@ -1,0 +1,31 @@
+/*=============== HEADER ===============*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 19px;
+  padding: 30px 0;
+}
+
+/**** NAVBAR ****/
+
+header nav {
+  display: flex;
+  gap: 68px;
+}
+
+header nav a {
+  border-top: 2px transparent solid;
+  padding-top: 14px;
+}
+
+header nav a:hover,
+.hebergements-header {
+  color: var(--main-color);
+  border-top-color: var(--main-color);
+}
+
+/* Medias */
