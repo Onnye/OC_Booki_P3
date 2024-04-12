@@ -461,4 +461,45 @@ h3 {
   .filter-btn {
     flex: 1 0 50%;
   }
+
+  /*========== hebergements-ans-populaires ==========*/
+  .hebergements-and-populaires {
+    gap: 15px;
+  }
+
+  .hebergements-and-populaires section {
+    border-radius: 0;
+    padding: 30px 20px;
+  }
+
+  /****** Hebergements ***********/
+  .hebergements {
+    order: 2;
+    width: 100%;
+    background-color: inherit;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .hebergements .hebergements-cards {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /******** populaires ***********/
+  .populaires {
+    margin: 0;
+  }
+
+  .populaires .populaires-cards {
+    flex-direction: column;
+  }
+
+  .populaires-cards .card {
+    margin-top: 15px;
+  }
+
+  .populaires .card-link {
+    width: 100%;
+  }
 }
