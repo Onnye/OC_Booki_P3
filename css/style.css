@@ -169,7 +169,7 @@ h3 {
   display: flex;
   gap: 15px;
 }
-.div-btn {
+.button-group {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -453,7 +453,7 @@ h3 {
     width: 100%;
   }
 
-  .div-btn {
+  .button-group {
     gap: 10px;
     justify-content: center;
   }
