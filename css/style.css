@@ -367,14 +367,27 @@ h3 {
 /*========== Media queries ==========*/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /*========== Info group - Section */
+  /*** Fonts ***/
+  .filter-btn {
+    font-size: 16px;
+  }
+  /*** filters ***/
+  .filter-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /*========== hebergements-ans-populaires ==========*/
   .hebergements-and-populaires {
     flex-direction: column;
   }
-
+  /*** hebergements ***/
   .hebergements {
     width: 100%;
   }
-
+  /*** populaires ***/
   .populaires {
     width: 100%;
     margin-top: 50px;
@@ -396,6 +409,11 @@ h3 {
 
   .populaires-cards .card-subtitle {
     font-size: 13px;
+  }
+
+  /*** Activities ***/
+  .activities img {
+    height: 200px;
   }
 }
 
