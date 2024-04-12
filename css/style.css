@@ -472,7 +472,7 @@ h3 {
     padding: 30px 20px;
   }
 
-  /****** Hebergements ***********/
+  /*** Hebergements ***/
   .hebergements {
     order: 2;
     width: 100%;
@@ -486,7 +486,7 @@ h3 {
     width: 100%;
   }
 
-  /******** populaires ***********/
+  /*** populaires ***/
   .populaires {
     margin: 0;
   }
@@ -501,5 +501,19 @@ h3 {
 
   .populaires .card-link {
     width: 100%;
+  }
+
+  /*========== activites ==========*/
+  .activities .cards-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activities img {
+    height: 141px;
+  }
+
+  .activities h3 {
+    height: 59px;
   }
 }
