@@ -10,3 +10,17 @@ footer {
   padding: 20px 0 20px 20px;
   gap: 15px;
 }
+
+/*========== Media queries ==========*/
+@media (max-width: 767.98px) {
+  footer {
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+    margin: 35px 0 0 0;
+    gap: 50px;
+  }
+  .container-footer {
+    width: 100%;
+    padding: 0;
+  }
+}
