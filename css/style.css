@@ -1,8 +1,8 @@
-/*========== imports ==========*/
+/*========== Imports ==========*/
 @import url(./components/header.css);
 @import url(./components/footer.css);
 
-/*=============== VARIABLES CSS ===============*/
+/*========== Variables CSS ==========*/
 :root {
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
@@ -19,6 +19,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -28,6 +32,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
+  min-width: 320px;
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -37,7 +42,7 @@ a {
   text-decoration: none;
 }
 
-/*** TYPOGRAPHY ***/
+/*** Typographie ***/
 
 h1 {
   font-size: 22px;
@@ -91,7 +96,7 @@ h3 {
   gap: 35px;
 }
 
-/**** headline ****/
+/*** headline ***/
 .headline {
   display: flex;
   flex-direction: column;
@@ -99,7 +104,7 @@ h3 {
   gap: 8px;
 }
 
-/***** Search-bar ******/
+/*** Search-bar ***/
 .search-location {
   display: inline-flex;
   flex-direction: row;
@@ -152,7 +157,7 @@ h3 {
   content: "Rechercher";
 }
 
-/***** Filters ******/
+/*** Filters ***/
 .filter-bar {
   display: flex;
   flex-direction: row;
@@ -191,7 +196,7 @@ h3 {
   background: var(--filter-bg-color);
 }
 
-/***** Info-bar ******/
+/*** Info-bar ***/
 .info-bar {
   display: flex;
   align-items: center;
@@ -224,7 +229,7 @@ h3 {
   box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/*** Hebergements ***/
 .hebergements {
   width: 65%;
   padding: 30px;
@@ -323,7 +328,7 @@ h3 {
   margin-bottom: 5px;
 }
 
-/****** Activities ***********/
+/*========== Activities - Section ==========*/
 .activities {
   display: flex;
   flex-direction: column;
