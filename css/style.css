@@ -473,10 +473,10 @@ h3 {
   }
 
   /*** Hebergements ***/
-  .hebergements {
+  #hebergements {
     order: 2;
     width: 100%;
-    background-color: inherit;
+    background-color: var(--white-color);
     padding: 20px;
     gap: 15px;
   }
